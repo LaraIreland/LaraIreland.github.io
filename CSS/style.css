@@ -64,6 +64,8 @@ height: 134px;
 flex-shrink: 0;
 }
 
+
+
 #tableau{
 width: 1613px;
 height: 728px;
@@ -78,10 +80,47 @@ position: relative;
 
 }
 
-#trait {
-  width: 100%;
-  border-bottom: 1px solid #FFF; 
+#titre2{
+width: 816px;
+height: 98px;
+color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-weight: 500;
+text-decoration-line: underline;
+position: relative;
+  top: -350px;
+  left: 500px; 
 }
+
+p{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+#tableau2{
+width:200px;
+height: 10x;
+position: relative;
+top: -450px; 
+left: 100px; 
+}
+
+#tableau2 img {
+  max-width: 200%; 
+  height: auto; 
+
+}
+
+
+
 
 
 
