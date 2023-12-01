@@ -1,7 +1,7 @@
 body{
 	width: 1440px;
 height: 4725px;
-background: #0D0C0C;
+background: #000000;
 }
 
 #logo{
@@ -80,12 +80,12 @@ position: relative;
 
 }
 
-#titre2{
+#titre2 h2{
 width: 816px;
 height: 98px;
 color: #FFF;
 font-family: Inter;
-font-size: 30px;
+font-size: 50px;
 font-weight: 500;
 text-decoration-line: underline;
 position: relative;
@@ -93,31 +93,111 @@ position: relative;
   left: 500px; 
 }
 
-p{
+#titre2 p{
 color: #FFF;
-text-align: center;
+width: 816px;
+height: 98px;
+font-weight: 500;
+text-align: right;
 font-family: Inter;
 font-size: 25px;
 font-style: normal;
-font-weight: 500;
 line-height: normal;
-
-
-}
-
-#tableau2{
-width:200px;
-height: 10x;
 position: relative;
-top: -450px; 
-left: 100px; 
+ top: -300px;
+left: 500px; 
 }
+
+
 
 #tableau2 img {
-  max-width: 200%; 
-  height: auto; 
+  width: 400px;
+ height: auto;
+ position: relative;
+ top: -450px;
+ left: 50px; 
+}
+
+#titre3{
+color: #FFF;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+position: relative;
+  top: -400px;
+  text-align: center;
+}
+
+#sous-titre{
+color: #FFF;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+  top: -430px;
+  text-align: center;
+}
+
+.conteneur-images {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+     position: relative;
+  top: -400px;
+}
+
+.conteneur-images img {
+width : 300px;
+height : auto;
+}
+
+.conteneur-texte {
+color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  top: -380px;
+}
+
+.conteneur-texte p {
+    margin: 0; 
+}
+
+
+.conteneur-images2 {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    position: relative;
+  top: -300px;
 
 }
+
+.conteneur-images2 img {
+width : 300px;
+height : auto;
+}
+
+.conteneur-texte2 {
+color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  top: -280px;
+}
+
+.conteneur-texte2 p {
+    margin: 0; 
+}
+
+
 
 
 
