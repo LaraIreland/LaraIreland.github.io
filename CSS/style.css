@@ -84,14 +84,19 @@ flex-shrink: 0;
  position: relative;
 }
 
-#accueil h2{
+#accueil {
 color: #FFF;
 font-family: Inter;
-font-size: 3vw;
-font-weight: 500;
+font-size: 4Vw;
+font-style: normal;
+font-weight: 500; 
+line-height: normal;
 text-decoration-line: underline;
 position: relative; 
+text-align: center;
+padding-top: 10%; 
 }
+
 
 #tableau2 {
 	display: flex;
@@ -117,18 +122,19 @@ line-height: 1.8;
  width: 30%;
  height: auto;
  position: relative;
+ padding-top: 5%;
 }
 
 #collection{
 color: #FFF;
 font-family: Inter;
-font-size: 50px;
+font-size: 5vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-decoration-line: underline;
 position: relative;
-  text-align: center;
+text-align: center;
 }
 
 #sous-titre{
@@ -193,7 +199,30 @@ color: #FFF;
 }
 
 
+#peintre img {
+    display: flex;
+    width: 20%;
+    height: auto;
+    position: relative;
+    align-items: left;
+    margin-left: 60%; 
+      margin-top: 10%; 
+ }
 
+#contact{
+color: #FFF;
+font-family: Inter;
+font-size: 5vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+position: relative;
+text-align: center;
+}
+
+.adresses{
+color: #FFF}
 
 
 
