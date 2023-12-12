@@ -137,7 +137,10 @@ text-align: center;
 margin: 0em; 
 }
 
-
+element.style {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 #sous-titre{
 color: #FFF;
@@ -230,19 +233,33 @@ text-align: right;
 line-height: 1.5;
 }
 
-.conteneur-contact{
-display: flex; 
-align-items: center;
+.conteneur-contact h5{
+border-style : solid; 
+color: #FFF; 
+border-width : 0.5px; 
 }
 
-.logo img { 
+.conteneur-contact {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.reseaux img { 
 width: 5%;
 height: auto;
 position: relative;
-margin-left: 25%; 
-margin-top: 9%; 
 }
 
-.logo {
+.reseaux {
 display: flex;
+align-content: center;
+justify-content: space-around;
 }
+
+#formulaire {
+display: block; 
+
+}
+
+
