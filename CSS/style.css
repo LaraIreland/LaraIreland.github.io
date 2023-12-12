@@ -94,7 +94,6 @@ line-height: normal;
 text-decoration-line: underline;
 position: relative; 
 text-align: center;
-padding-top: 10%; 
 }
 
 
@@ -135,17 +134,20 @@ line-height: normal;
 text-decoration-line: underline;
 position: relative;
 text-align: center;
+margin: 0em; 
 }
+
+
 
 #sous-titre{
 color: #FFF;
 font-family: Inter;
-font-size: 40px;
+font-size: 5vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 position: relative;
-  text-align: center;
+text-align: center;
 }
 
 .conteneur-images {
@@ -156,7 +158,7 @@ position: relative;
 }
 
 .conteneur-images img {
-width : 300px;
+width : 30%;
 height : auto;
 }
 
@@ -182,7 +184,7 @@ color: #FFF;
 }
 
 .conteneur-images2 img {
-width : 300px;
+width : 30%;
 height : auto;
 }
 
@@ -198,15 +200,22 @@ color: #FFF;
     margin: 0; 
 }
 
+#contact{
+color: #FFF;
+font-family: Inter;
+font-size: 5vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+position: relative;
+text-align: center;
+}
 
-#peintre img {
-    display: flex;
+.conteneur-contact img {
     width: 25%;
     height: auto;
     position: relative;
-    align-items: left;
-    margin-left: 55%; 
-    margin-top: 5%; 
  }
 
 
@@ -217,13 +226,16 @@ font-size: 2vw;
 font-weight: 500;
 line-height: normal;
 position: relative;
-text-align: right; 
-margin-right: 55%; 
-margin-top: -27%; 
+text-align: right;
 line-height: 1.5;
+}
 
-#insta img{ 
-display: flex;
+.conteneur-contact{
+display: flex; 
+align-items: center;
+}
+
+.logo img { 
 width: 5%;
 height: auto;
 position: relative;
@@ -231,11 +243,6 @@ margin-left: 25%;
 margin-top: 9%; 
 }
 
-#facebook img {
+.logo {
 display: flex;
-width: 5%;
-height: auto;
-position: relative;
-margin-left: 25%; 
-margin-top: 9%; 
 }
