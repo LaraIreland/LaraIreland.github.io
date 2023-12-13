@@ -34,12 +34,12 @@
 		<img src="images/tableau2.jpeg" alt="Tableau deuxième page"/>
 		<p>Au coeur des ruelles parisiennes, découvrez un lieu unique. La galerie se compose d’une large séléction d’oeuvre choisi avec soin par l’oeil expert de Monsieur Dechewskhy. 
 		<br>L’artiste phare et favorite de notre spécialiste : Estelle Yvon.
-        <br> Venez découvrir cette harmonie de couleur et peut-être craquerez-vous pour une de ces oeuvres.
+        <br><br> Venez découvrir cette harmonie de couleur et peut-être craquerez-vous pour une de ces oeuvres.
 		</p>
 
    </div>
    <section id="collection">
-      <h3>Collection</h3>
+      <h2>Collection</h2>
    </section>
    <section id="sous-titre">
       <p>Nos coups de coeur</p>
@@ -93,7 +93,7 @@
 </div>
 <div class="formulaire">
 <p>Si vous souhaitez recevoir des informations sur la galerie :</p>
-<form action="#" onsubmit="affiche_information()" name="infomation"> 
+<form action="#" onsubmit="affiche_information()" name="information"> 
 <input type="text" id="nom" name="first_name" placeholder="Nom"> 
 <input type="text" id="prenom" name="last_name" placeholder="Prénom"> 
 <input type="email" id="email" name="email" placeholder= "Email"> 
@@ -101,10 +101,10 @@
 </form>
 <script>
 function affiche_information() {
-  let first_name = document.forms["information"]["first_name"].value; 
-  let last_name = document.forms["information"]["last_name"].value;
-  let email = document.forms["information"]["email"].value;
-    alert("Voici les informations que nous avons récupéré: "+first_name+last_name+email+"Merci de votre souscription");
+  let first_name = document.getElementById("nom").value;
+  let last_name = document.getElementById("prenom").value;
+  let email = document.getElementById("email").value;
+    alert("Voici les informations que nous avons récupéré: \n"+first_name+ "\n" +last_name+ "\n" +email+ "\nMerci de votre souscription");
 }
 </script> 
 </div>

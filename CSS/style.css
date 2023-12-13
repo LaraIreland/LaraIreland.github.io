@@ -94,16 +94,19 @@ flex-shrink: 0;
 #accueil {
 color: #FFF;
 font-family: Inter;
-font-size: 4Vw;
+font-size: 4vw;
 font-style: normal;
 font-weight: 500; 
 line-height: normal;
 text-decoration-line: underline;
 position: relative; 
 text-align: center;
-margin-bottom : 5%; 
 }
 
+h2{
+margin-top: 5%;
+margin-bottom: 2.5%; 
+}
 
 #tableau2 {
 	display: flex;
@@ -115,21 +118,24 @@ color: #FFF;
 font-weight: 500;
 text-align: left;
 font-family: Inter;
-font-size: 2vw;
+font-size: 2.5vw;
 font-style: normal;
 line-height: normal;
 position: relative;
 margin-left:2.5%;
 line-height: 1.8;
+text-align: justify;
+padding-right: 4%;
 }
 
 
 
 #tableau2 img {
- width: 30%;
+ width: 35%;
  height: auto;
  position: relative;
- padding-top: 5%;
+ padding-top: 0%;
+
 }
 
 #collection{
@@ -143,23 +149,19 @@ text-decoration-line: underline;
 position: relative;
 text-align: center;
 margin: 0em; 
-margin-top: 32%; 
-}
 
-element.style {
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 #sous-titre{
 color: #FFF;
 font-family: Inter;
-font-size: 5vw;
+font-size: 4vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 position: relative;
 text-align: center;
+margin-top:0%;
 }
 
 .conteneur-images {
@@ -202,12 +204,11 @@ margin-top: 5%;
 }
 
 .conteneur-texte2 {
-color: #FFF;
-display: flex;
-justify-content: space-around;
-align-items: center;
-position: relative;
-text-align: center;
+  color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
 }
 
 .conteneur-texte2 p {
