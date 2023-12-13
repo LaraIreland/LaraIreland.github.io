@@ -40,6 +40,13 @@ nav ul li a{
 	font-weight: 500;
 	line-height: normal;
 	position: relative;
+	
+}
+
+nav ul li a:hover {
+	color: gray;
+	text-decoration: underline; 
+	cursor: pointer;
 }
 
 nav ul{
@@ -221,12 +228,11 @@ position: relative;
 text-align: center;
 }
 
-.conteneur-contact img {
+#peintre {
     width: 25%;
     height: auto;
     position: relative;
- }
-
+}
 
 .adresses{
 display: block;
@@ -244,12 +250,14 @@ align-items: center;
 border-style : solid; 
 color: #FFF; 
 border-width : 0.5px; 
+height: 100%; 
 }
 
 .conteneur-contact {
     display: flex;
-    align-content: center;
     justify-content: space-around;
+    align-items: center; 
+    width: 100%; 
 }
 
 .reseaux img { 
@@ -257,8 +265,6 @@ width: 5%;
 height: auto;
 position: relative;
 }
-
-
 
 .formulaire p{
 color: #FFF;
@@ -283,13 +289,11 @@ width: 30%;
 color: white;
 background-color: red;
 border: none;
-cursor: pointer;
 }
 
 #souscrire:hover {
 color: red;
 background-color: white;
-border: none;
 cursor: pointer;
 }
 
