@@ -128,8 +128,6 @@ text-align: justify;
 padding-right: 4%;
 }
 
-
-
 #tableau2 img {
  width: 35%;
  height: auto;
@@ -152,7 +150,11 @@ margin: 0em;
 
 }
 
-#sous-titre{
+#collection h2 {
+margin-bottom: 0.5%; 
+}
+
+#sous-titre p {
 color: #FFF;
 font-family: Inter;
 font-size: 4vw;
@@ -262,7 +264,7 @@ height: 100%;
 }
 
 .reseaux img { 
-width: 5%;
+width: 20%;
 height: auto;
 position: relative;
 }
