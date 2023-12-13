@@ -94,6 +94,7 @@ line-height: normal;
 text-decoration-line: underline;
 position: relative; 
 text-align: center;
+margin-bottom : 5%; 
 }
 
 
@@ -135,6 +136,7 @@ text-decoration-line: underline;
 position: relative;
 text-align: center;
 margin: 0em; 
+margin-top: 32%; 
 }
 
 element.style {
@@ -161,12 +163,12 @@ text-align: center;
 }
 
 .conteneur-images img {
-width : 30%;
+width : 25%;
 height : auto;
 }
 
 .conteneur-texte {
-color: #FFF;
+    color: #FFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -175,32 +177,36 @@ color: #FFF;
 
 .conteneur-texte p {
     margin: 0; 
+    margin-top: 2%;
+    font-size: 2.5vw;
 }
-
 
 .conteneur-images2 {
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
     position: relative;
-
 }
 
 .conteneur-images2 img {
-width : 30%;
+width : 25%;
 height : auto;
+margin-top: 5%;
 }
 
 .conteneur-texte2 {
 color: #FFF;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+text-align: center;
 }
 
 .conteneur-texte2 p {
     margin: 0; 
+    margin-top: 2%;
+    font-size: 2.5vw;
 }
 
 #contact{
@@ -255,7 +261,12 @@ position: relative;
 
 
 .formulaire p{
-color: white;
+color: #FFF;
+font-family: Inter;
+font-size: 2vw;
+font-weight: 500;
+position: relative;
+text-align: center;
 }
 
 input{
