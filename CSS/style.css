@@ -323,6 +323,7 @@ input {
 	cursor: pointer;
 }
 
+/* Mise en page pour la responsive taille < 900 px (tablette)*/
 @media only screen and (max-width: 900px) {
   .responsive {
     width: 49.99999%;
@@ -411,7 +412,7 @@ nav ul li a {
 
 }
 
-/* Mise en page pour la responsive */
+/* Mise en page pour la responsive taille < 500 px (tel)*/
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
