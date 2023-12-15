@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
-<!-- Ici la navigation du site -->
    <head>
       <meta charset="UTF-8" />
       <meta name="description" content="galerie, art, tableau, peintre, artiste, oeuvre d'art'">
       <meta name="viewport"content="width=device-width,initial-scale=1.0">
+      <!-- Titre de la page -->
       <title>Dedal Couleur</title>
       <link rel="icon"type="image/x-icon"href="image/LOGO.png">
+      <!-- Liaison avec le CSS -->
       <link rel="stylesheet" href="CSS/style.css"/>
    </head>
    <body>
       <header>
          <div id="logo">
+         	<!-- Logo du site -->
             <img src="images/LOGO.png" alt="logo site"/>
+            <!-- Navigation du site -->
             <section id="titre">
                <h1>DEDAL COULEURS</h1>
 				 <nav>
 					<ul>
+					<!-- Liens vers les sections -->
 					   <li><a href="#accueil">Accueil</a></li>
 					   <li><a href="#collection">Collection</a></li>
 					   <li><a href="#contact">Contact</a></li>
@@ -24,11 +28,14 @@
 				 </nav>
             </section>
          </div>
-         
       </header>
+
+      <!-- Séction de présentation de la galerie -->
       <div id="tableau">
          <img src="images/tableau1.jpeg" alt="Tableau présentation"/>
       </div>
+
+      <!-- Section Accueil -->
       <section id="accueil">
          <h2>Présentation de la galerie</h2>
       </section>
@@ -39,61 +46,64 @@
             <br><br> Venez découvrir cette harmonie de couleur et peut-être craquerez-vous pour une de ces oeuvres.
          </p>
       </div>
+
+      <!-- Section collection -->
       <section id="collection">
          <h2>Collection</h2>
       </section>
       <section id="sous-titre">
          <p>Nos coups de coeur</p>
-      </section>	  
+      </section>
+      <!-- Présentation des oeuvres-->	  
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau3.jpeg">
-			  <img img src="images/tableau3.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau3.jpeg" alt="A Coeur Ouvert" width="1012" height="1012">
 			</a>
 			<div class="description"><p>A Coeur Ouvert</p></div>
 		  </div>
 		</div>
-		
+		<!-- Image dans la gelerie-->	 
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau4.jpeg">
-			  <img img src="images/tableau4.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau4.jpeg" alt="Dear Disease" width="1012" height="1012">
 			</a>
 			<div class="description"><p>Dear Disease</p></div>
 		  </div>
 		</div>
-		
+		<!-- Image dans la gelerie-->	
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau5.jpeg">
-			  <img img src="images/tableau5.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau5.jpeg" alt="Ma Dame de Fer" width="1012" height="1012">
 			</a>
 			<div class="description"><p>Ma Dame de Fer</p></div>
 		  </div>
 		</div>
-		
+		<!-- Image dans la gelerie-->	
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau6.jpeg">
-			  <img img src="images/tableau6.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau6.jpeg" alt="Alliances Brisées" width="1012" height="1012">
 			</a>
 			<div class="description"><p>Alliances Brisées</p></div>
 		  </div>
 		</div>
-		
+		<!-- Image dans la gelerie-->	
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau7.jpeg">
-			  <img img src="images/tableau7.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau7.jpeg" alt="L'Ange de mes Songes" width="1012" height="1012">
 			</a>
 			<div class="description"><p>L'Ange de mes Songes</p></div>
 		  </div>
 		</div>
-		
+		<!-- Image dans la gelerie-->	
 		<div class="responsive">
 		  <div class="galerie">
 			<a target="_blank" href="images/tableau8.jpeg">
-			  <img img src="images/tableau8.jpeg" alt="Tableau" width="1012" height="1012">
+			  <img img src="images/tableau8.jpeg" alt="Nuit Divine" width="1012" height="1012">
 			</a>
 			<div class="description"><p>Nuit Divine</p></div>
 		  </div>
@@ -101,11 +111,14 @@
 
 		<div class="clearfix"></div>
 
+      <!-- Section Contact -->
       <section id="contact">
          <h2>Contact</h2>
       </section>
+      <!-- Les informations de contact -->
       <div class="conteneur-contact">
          <section div class="adresses">
+         <!-- L'adresse de la galerie -->
             <p>10 Rue de la 
                <br>République
                <br> 75000 Paris 
@@ -114,15 +127,20 @@
                <br> Fax : 01.63.45.78.52
                <br> Email : dedal@gmail.com
             </p>
+            <!-- Logo réseaux sociaux -->
             <div class="reseaux">
                <img src="images/logos.jpeg" alt="Logos"/>
             </div>
          </section>
+         <!-- Simple ligne verticale -->
          <div class="vertical_line"></div>
+         <!-- Image de l'artiste -->
          <img id="peintre" src="images/peintre.jpeg" alt="estelle"/>
       </div>
+      <!-- Le formulaire d'inscription -->
       <div class="formulaire">
          <p>Si vous souhaitez recevoir des informations sur la galerie :</p>
+         <!-- Notification pour afficher un message -->
          <form action="#" onsubmit="affiche_information()" name="information"> 
             <input type="text" id="nom" name="first_name" placeholder="Nom"> 
             <input type="text" id="prenom" name="last_name" placeholder="Prénom"> 
