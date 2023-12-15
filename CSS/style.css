@@ -63,7 +63,7 @@ nav ul {
 
 nav ul li {
 	display: inline;
-	padding: 2%;
+	padding-left: 2%;
 }
 
 nav {
@@ -349,7 +349,7 @@ input {
 
 
 nav ul li a {
-	font-size: 3.5vw;
+	font-size: 3vw;
 }
   
   #tableau2 {
